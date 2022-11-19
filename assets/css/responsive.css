@@ -1,0 +1,134 @@
+@media all and (max-width:1150px) {}
+
+
+
+@media all and (max-width: 1076px) {
+}
+
+
+
+@media all and (max-width: 991px) {
+  .mobile-menu {
+    display: block !important;
+  }
+ 
+  .menu-icon {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .dinner-menu-1 h2 {
+    margin-left: 93px;
+    font-size: 15px;
+  }
+  .menu-single-area h2 {
+    font-size: 30px;
+  }
+  .menu-single-area.item-2.dinner-menu h2 {
+    display: none;
+  }
+  .menu-single-area.item-2.dinner-menu ul {
+    display: none;
+  }
+  .menu-single-area.lunch-menu h2 {
+    display: none;
+  }
+  .menu-single-area.lunch-menu ul {
+    display: none;
+  }
+  .header-content-area h5 {
+    margin-bottom: 115px;
+  }
+  .col-md-4.col-sm-3.col-4.m-menu {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 136px;
+    z-index: 11;
+    background-color: blue;
+    width: 45%;
+  }
+  .col-md-4.col-sm-3.col-4.m-menu ul{
+    flex-direction: column;
+  }
+
+}
+
+
+
+
+
+@media all and (max-width: 767px) {
+  .header-content-area h1 {
+    font-size: 60px;
+    max-width: 460px;
+    width: 100%;
+  }
+  .header-content-area p {
+    max-width: 500px;
+  }
+  .dinner-menu-1 p {
+    width: 60px;
+  }
+  .dinner-menu-1 h2 {
+    margin-left: 62px;
+    font-size: 15px;
+  }
+  .lunch-menu-2 p {
+    width: 60px;
+  }
+  .lunch-menu-2 h2 {
+    margin-left: 62px;
+  }
+  .menu-single-area.item-3 ul {
+    margin-top: 5px;
+  }
+  .menu-content ul {
+    margin-top: 20px;
+  }
+  .header-content-area h5 {
+    margin-left: 140px;
+    margin-bottom: 115px;
+  }
+  .header-content-area a {
+    margin-left: 160px;
+  }
+  .fb ul li {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+  .insta ul li {
+    padding-top: 15px;
+  }
+  .logo-area {
+    text-align: center;
+  }
+  .logo-area p {
+    max-width: 800px;
+    width: 100%;
+  }
+  .social .btn{
+    display: none;
+  }
+  
+
+}
+
+
+
+@media all and (max-width: 576px) {
+  .menu-icon .social{
+    display: none;
+  }
+  .header-content-area h1 {
+    font-size: 50px;
+    max-width: 420px;
+    width: 100%;
+  }
+  .header-content-area p {
+    max-width: 400px;
+  }
+
+
+  }
